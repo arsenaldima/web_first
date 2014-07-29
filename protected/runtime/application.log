@@ -1,0 +1,1539 @@
+2014/07/21 15:56:19 [error] [exception.CException] exception 'CException' with message 'Alias "User.php" is invalid. Make sure it points to an existing directory or file.' in C:\web\framework\YiiBase.php:347
+Stack trace:
+#0 C:\web\framework\gii\generators\crud\CrudCode.php(59): YiiBase::import('User.php', true)
+#1 C:\web\framework\validators\CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 C:\web\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(CrudCode), 'model')
+#3 C:\web\framework\base\CModel.php(159): CValidator->validate(Object(CrudCode), NULL)
+#4 C:\web\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\web\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\web\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\web\framework\web\CWebApplication.php(282): CController->run('index')
+#11 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#12 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/web/index.php?r=gii/crud/index
+HTTP_REFERER=http://localhost/web/index.php?r=gii/crud/index
+---
+2014/07/21 16:00:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=user
+---
+2014/07/21 16:00:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in C:\web\framework\web\auth\CWebUser.php:394
+Stack trace:
+#0 C:\web\framework\gii\GiiModule.php(177): CWebUser->loginRequired()
+#1 C:\web\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(CrudGenerator), Object(CInlineAction))
+#2 C:\web\framework\web\CWebApplication.php(282): CController->run('code')
+#3 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/code')
+#4 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/web/index.php?r=gii/crud/code&id=0
+HTTP_REFERER=http://localhost/web/index.php?r=gii/crud/index
+---
+2014/07/21 16:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserController".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('UserController')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=UserController
+---
+2014/07/21 16:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserController".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('UserController')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=UserController
+---
+2014/07/21 16:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserController".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('UserController')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=UserController
+---
+2014/07/21 16:01:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserController".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('UserController')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=UserController
+---
+2014/07/21 16:01:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserController".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('UserController')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=UserController
+---
+2014/07/21 16:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "User".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('User')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=User
+---
+2014/07/21 16:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "User".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('User')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=User
+---
+2014/07/21 16:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "User".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('User')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=User
+---
+2014/07/21 16:01:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "User".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('User')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=User
+---
+2014/07/21 16:01:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=user
+---
+2014/07/21 16:02:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=user
+---
+2014/07/21 16:07:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user_form.php".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user_form.php')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=user_form.php
+---
+2014/07/21 16:07:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user_form.php".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user_form.php')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=user_form.php
+---
+2014/07/21 16:08:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserController/user_form".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('UserController/...')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=UserController/user_form
+---
+2014/07/21 16:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserController/user_form.php".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('UserController/...')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=UserController/user_form.php
+---
+2014/07/21 16:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "дщпшт".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('??????????')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('??????????')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user/??????????')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=user/%D0%B4%D1%89%D0%BF%D1%88%D1%82
+---
+2014/07/21 16:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=user/login
+---
+2014/07/21 17:18:57 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent (C:\web\framework\web\CHttpSession.php:181)
+Stack trace:
+#0 C:\web\framework\web\auth\CWebUser.php(233): CWebUser->changeIdentity()
+#1 Z:\home\localhost\www\web\protected\models\LoginForm.php(71): CWebUser->login()
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(96): LoginForm->login()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/login
+in Z:\home\localhost\www\web\protected\models\LoginForm.php (71)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (96)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/21 17:19:04 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent (C:\web\framework\web\CHttpSession.php:181)
+Stack trace:
+#0 C:\web\framework\web\auth\CWebUser.php(233): CWebUser->changeIdentity()
+#1 Z:\home\localhost\www\web\protected\models\LoginForm.php(71): CWebUser->login()
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(96): LoginForm->login()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/login
+in Z:\home\localhost\www\web\protected\models\LoginForm.php (71)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (96)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/21 17:19:22 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent (C:\web\framework\web\CHttpSession.php:181)
+Stack trace:
+#0 C:\web\framework\web\auth\CWebUser.php(233): CWebUser->changeIdentity()
+#1 Z:\home\localhost\www\web\protected\models\LoginForm.php(71): CWebUser->login()
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(96): LoginForm->login()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/login
+in Z:\home\localhost\www\web\protected\models\LoginForm.php (71)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (96)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/21 17:19:41 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent (C:\web\framework\web\CHttpSession.php:181)
+Stack trace:
+#0 C:\web\framework\web\auth\CWebUser.php(233): CWebUser->changeIdentity()
+#1 Z:\home\localhost\www\web\protected\models\LoginForm.php(71): CWebUser->login()
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(96): LoginForm->login()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/login
+in Z:\home\localhost\www\web\protected\models\LoginForm.php (71)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (96)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/21 17:20:51 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent (C:\web\framework\web\CHttpSession.php:181)
+Stack trace:
+#0 C:\web\framework\web\auth\CWebUser.php(233): CWebUser->changeIdentity()
+#1 Z:\home\localhost\www\web\protected\models\LoginForm.php(71): CWebUser->login()
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(96): LoginForm->login()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/login
+in Z:\home\localhost\www\web\protected\models\LoginForm.php (71)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (96)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/21 17:21:22 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent (C:\web\framework\web\CHttpSession.php:181)
+Stack trace:
+#0 C:\web\framework\web\auth\CWebUser.php(233): CWebUser->changeIdentity()
+#1 Z:\home\localhost\www\web\protected\models\LoginForm.php(71): CWebUser->login()
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(96): LoginForm->login()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/login
+in Z:\home\localhost\www\web\protected\models\LoginForm.php (71)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (96)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/21 17:21:26 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent (C:\web\framework\web\CHttpSession.php:181)
+Stack trace:
+#0 C:\web\framework\web\auth\CWebUser.php(233): CWebUser->changeIdentity()
+#1 Z:\home\localhost\www\web\protected\models\LoginForm.php(71): CWebUser->login()
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(96): LoginForm->login()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/login
+in Z:\home\localhost\www\web\protected\models\LoginForm.php (71)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (96)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/21 17:24:32 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "login".' in C:\web\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(227): CComponent->__call('login', Array)
+#1 Z:\home\localhost\www\web\protected\controllers\SiteController.php(118): CActiveRecord->__call('login', Array)
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(118): User->login()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionAvtorizatia()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\web\framework\web\CWebApplication.php(282): CController->run('Avtorizatia')
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Avtorizati...')
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=site/Avtorizatia
+HTTP_REFERER=http://localhost/web/index.php?r=site/Avtorizatia
+---
+2014/07/21 17:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "re".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('re')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('re')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/re')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/re
+---
+2014/07/21 17:56:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/redit
+---
+2014/07/22 12:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/redit
+---
+2014/07/22 12:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/redit
+---
+2014/07/22 12:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('Redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('Redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/Redit
+---
+2014/07/22 13:00:41 [warning] [application] Failed to set unsafe attribute "picture" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:00:41 [error] [exception.CException] exception 'CException' with message 'Property "User.image" is not defined.' in C:\web\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(161): CComponent->__set('image', Object(CUploadedFile))
+#1 Z:\home\localhost\www\web\protected\controllers\SiteController.php(91): CActiveRecord->__set('image', Object(CUploadedFile))
+#2 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#3 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\web\framework\web\CWebApplication.php(282): CController->run('Redit')
+#7 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Redit')
+#8 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=site/Redit
+HTTP_REFERER=http://localhost/web/index.php?r=site/Redit
+---
+2014/07/22 13:31:16 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:31:16 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (91)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:32:05 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:32:05 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (91)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:32:52 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:32:52 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (92)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:34:24 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:34:24 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (93)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:34:39 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:34:39 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Filename cannot be empty (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (93)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:35:07 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:35:07 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Filename cannot be empty (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (96)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:35:50 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:35:50 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Filename cannot be empty (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (95)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:36:22 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:36:22 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (95)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:37:41 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:37:41 [error] [php] move_uploaded_file(web/images) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (95)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:40:28 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:40:28 [error] [php] move_uploaded_file(/web/images) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (95)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:40:31 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:40:31 [error] [php] move_uploaded_file(/web/images) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (95)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:43:54 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:43:54 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (95)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:44:27 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:44:27 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (95)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:44:58 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:44:58 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (95)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:45:51 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:45:51 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (95)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:46:29 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:46:29 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (95)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:47:48 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:47:48 [error] [php] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (93)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:50:08 [warning] [application] Failed to set unsafe attribute "image" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (87)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:50:08 [error] [exception.CException] exception 'CException' with message 'CUploadedFile and its behaviors do not have a method or closure named "save".' in C:\web\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\localhost\www\web\protected\controllers\SiteController.php(99): CComponent->__call('save', Array)
+#1 Z:\home\localhost\www\web\protected\controllers\SiteController.php(99): CUploadedFile->save()
+#2 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#3 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\web\framework\web\CWebApplication.php(282): CController->run('Redit')
+#7 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Redit')
+#8 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=site/Redit
+HTTP_REFERER=http://localhost/web/index.php?r=site/Redit
+---
+2014/07/22 13:54:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog_bd.item' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `Item`.
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (80)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 13:54:06 [error] [exception.CDbException] exception 'CDbException' with message 'The table "Item" for active record class "Item" cannot be found in the database.' in C:\web\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Item))
+#1 C:\web\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(80): CActiveRecord->__construct()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionCreate()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\web\framework\web\CWebApplication.php(282): CController->run('Create')
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Create')
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=site/Create
+---
+2014/07/22 15:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loadfile".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('loadfile')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('loadfile')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loadfile')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/loadfile
+---
+2014/07/22 15:29:09 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (115)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 15:29:56 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (115)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 15:29:56 [error] [php] move_uploaded_file(Z:\home\localhost\www\web\protected\uploads/Chrysanthemum.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionfile()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/file
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (120)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 15:30:03 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (115)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 15:30:03 [error] [php] move_uploaded_file(Z:\home\localhost\www\web\protected\uploads/Chrysanthemum.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionfile()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/file
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (120)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 15:30:28 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (115)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 15:30:28 [error] [php] move_uploaded_file(Z:\home\localhost\www\web\protected\uploads/Jellyfish.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory (C:\web\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionfile()
+#1 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#3 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#5 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/file
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (120)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 15:31:15 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (115)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 15:32:45 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (115)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 16:24:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user/redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=user/redit
+---
+2014/07/22 16:30:41 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "calculateTotalItemCount".' in C:\web\framework\base\CComponent.php:266
+Stack trace:
+#0 Z:\home\localhost\www\web\protected\controllers\SiteController.php(94): CComponent->__call('calculateTotalI...', Array)
+#1 Z:\home\localhost\www\web\protected\controllers\SiteController.php(94): CActiveDataProvider->calculateTotalItemCount()
+#2 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#3 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\web\framework\web\CWebApplication.php(282): CController->run('redit')
+#7 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/redit')
+#8 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=site/redit
+---
+2014/07/22 16:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user/redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=user/redit
+---
+2014/07/22 16:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user/redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=user/redit
+---
+2014/07/22 16:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user/redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=user/redit
+---
+2014/07/22 16:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user/redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=user/redit
+---
+2014/07/22 16:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user/redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=user/redit
+---
+2014/07/22 16:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('Redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('Redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user/Redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=user/Redit
+---
+2014/07/22 16:50:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Redit".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('Redit')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('Redit')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('user/Redit')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=user/Redit
+---
+2014/07/22 16:55:50 [warning] [application] Failed to set unsafe attribute "picture" of "User".
+in Z:\home\localhost\www\web\protected\controllers\UserController.php (72)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 16:55:57 [warning] [application] Failed to set unsafe attribute "picture" of "User".
+in Z:\home\localhost\www\web\protected\controllers\UserController.php (72)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 16:56:04 [warning] [application] Failed to set unsafe attribute "picture" of "User".
+in Z:\home\localhost\www\web\protected\controllers\UserController.php (72)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 16:56:59 [warning] [application] Failed to set unsafe attribute "picture" of "User".
+in Z:\home\localhost\www\web\protected\controllers\UserController.php (72)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 17:04:03 [warning] [application] Failed to set unsafe attribute "picture" of "User".
+in Z:\home\localhost\www\web\protected\controllers\UserController.php (72)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 17:04:03 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\UserController.php (72)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 17:04:13 [warning] [application] Failed to set unsafe attribute "picture" of "User".
+in Z:\home\localhost\www\web\protected\controllers\UserController.php (72)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 17:04:13 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\UserController.php (72)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 17:09:54 [error] [php] Object of class User could not be converted to string (Z:\home\localhost\www\web\protected\controllers\SiteController.php:90)
+Stack trace:
+#0 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (90)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 17:12:50 [warning] [application] Failed to set unsafe attribute "picture" of "User".
+in Z:\home\localhost\www\web\protected\controllers\UserController.php (72)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/22 17:12:50 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\UserController.php (72)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/23 10:51:25 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "Clear".' in C:\web\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(227): CComponent->__call('Clear', Array)
+#1 Z:\home\localhost\www\web\protected\controllers\SiteController.php(102): CActiveRecord->__call('Clear', Array)
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(102): User->Clear()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\web\framework\web\CWebApplication.php(282): CController->run('Redit')
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Redit')
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=site/Redit
+HTTP_REFERER=http://localhost/web/index.php?r=site/Redit
+---
+2014/07/23 10:51:42 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "clear".' in C:\web\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(227): CComponent->__call('clear', Array)
+#1 Z:\home\localhost\www\web\protected\controllers\SiteController.php(102): CActiveRecord->__call('clear', Array)
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(102): User->clear()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\web\framework\web\CWebApplication.php(282): CController->run('Redit')
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Redit')
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=site/Redit
+HTTP_REFERER=http://localhost/web/index.php?r=site/Redit
+---
+2014/07/23 11:24:04 [error] [php] Missing argument 2 for CActiveForm::labelEx(), called in Z:\home\localhost\www\web\protected\views\site\redit.php on line 40 and defined (C:\web\framework\web\widgets\CActiveForm.php:595)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(104): SiteController->render()
+#4 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#5 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\views\site\redit.php (40)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (104)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/23 11:24:09 [error] [php] Missing argument 2 for CActiveForm::labelEx(), called in Z:\home\localhost\www\web\protected\views\site\redit.php on line 40 and defined (C:\web\framework\web\widgets\CActiveForm.php:595)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(111): SiteController->render()
+#4 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionRedit()
+#5 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/Redit
+in Z:\home\localhost\www\web\protected\views\site\redit.php (40)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (111)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/24 10:54:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "first_page".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('first_page')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('first_page')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/first_page')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/first_page
+---
+2014/07/24 10:55:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "first_page".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('first_page')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('first_page')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/first_page')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/first_page
+---
+2014/07/24 14:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "profil".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('profil')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('profil')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profil')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/profil
+---
+2014/07/24 14:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "profil".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('profil')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('profil')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profil')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/profil
+---
+2014/07/24 14:11:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "profil".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('profil')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('profil')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profil')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/profil
+---
+2014/07/24 14:18:41 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (131)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/24 15:41:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "first_page".' in C:\web\framework\web\CController.php:483
+Stack trace:
+#0 C:\web\framework\web\CController.php(270): CController->missingAction('first_page')
+#1 C:\web\framework\web\CWebApplication.php(282): CController->run('first_page')
+#2 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/first_page')
+#3 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/index.php?r=site/first_page
+---
+2014/07/24 17:27:32 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (90)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/24 17:27:32 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (112)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 09:27:04 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (93)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 09:27:04 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (107)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 09:27:04 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (126)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 09:29:36 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (93)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 09:30:51 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (94)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 09:31:57 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (94)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 09:40:55 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (94)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 09:41:24 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (94)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 09:43:19 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (94)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 09:45:00 [warning] [application] Failed to set unsafe attribute "file" of "loadfile".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (94)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:14:10 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (109)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:14:10 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (114)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:15:18 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (109)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:15:18 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (114)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:15:43 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (109)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:15:43 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (114)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:16:55 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (109)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:16:55 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (129)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:18:02 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (109)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:18:02 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (129)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:19:09 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (109)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:19:09 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (129)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:19:44 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (109)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:19:44 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (130)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:20:29 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (109)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:20:29 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (131)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:21:25 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (109)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:21:25 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (131)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:32:16 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (107)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:32:16 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (129)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:51:15 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (107)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 10:51:15 [warning] [application] Failed to set unsafe attribute "kom_o_sebe" of "User".
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (129)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 12:12:51 [error] [exception.CException] exception 'CException' with message 'Please specify the "data" property.' in C:\web\framework\zii\widgets\CDetailView.php:137
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(147): CDetailView->init()
+#1 C:\web\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#2 Z:\home\localhost\www\web\protected\views\site\profil.php(98): CBaseController->widget('zii.widgets.CDe...', Array)
+#3 C:\web\framework\web\CBaseController.php(126): require('Z:\home\localho...')
+#4 C:\web\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#5 C:\web\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#6 C:\web\framework\web\CController.php(782): CController->renderPartial('profil', Array, true)
+#7 Z:\home\localhost\www\web\protected\controllers\SiteController.php(90): CController->render('profil', Array)
+#8 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionprofil()
+#9 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\web\framework\web\CWebApplication.php(282): CController->run('profil')
+#13 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profil')
+#14 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/web/index.php?r=site/profil
+---
+2014/07/25 12:25:59 [error] [exception.CException] exception 'CException' with message 'Property "User.header" is not defined.' in C:\web\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(145): CComponent->__get('header')
+#1 Z:\home\localhost\www\web\protected\views\site\profil.php(91): CActiveRecord->__get('header')
+#2 C:\web\framework\web\CBaseController.php(126): require('Z:\home\localho...')
+#3 C:\web\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#4 C:\web\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#5 C:\web\framework\web\CController.php(782): CController->renderPartial('profil', Array, true)
+#6 Z:\home\localhost\www\web\protected\controllers\SiteController.php(90): CController->render('profil', Array)
+#7 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionprofil()
+#8 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\web\framework\web\CWebApplication.php(282): CController->run('profil')
+#12 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/profil')
+#13 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/web/index.php?r=site/profil
+---
+2014/07/25 13:09:54 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\web\framework\web\CController.php:336
+Stack trace:
+#0 C:\web\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\web\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\web\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\web\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\web\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\web\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\web\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\web\framework\web\CWebApplication.php(282): CController->run('update')
+#9 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('statia/update')
+#10 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/web/index.php?r=statia/update
+---
+2014/07/25 14:07:43 [error] [php] fopen(stat_1.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\web\protected\views\site\statia.php:11)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): SiteController->render()
+#4 unknown(0): SiteController->actionstatia()
+#5 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\web\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/statia&id=2
+in Z:\home\localhost\www\web\protected\views\site\statia.php (11)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (198)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 14:09:53 [error] [php] fopen(stat_1.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\web\protected\views\site\statia.php:11)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): SiteController->render()
+#4 unknown(0): SiteController->actionstatia()
+#5 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\web\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/statia&id=2
+in Z:\home\localhost\www\web\protected\views\site\statia.php (11)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (198)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 14:10:49 [error] [php] fopen(fgjztfjngcnv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\web\protected\views\site\statia.php:11)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): SiteController->render()
+#4 unknown(0): SiteController->actionstatia()
+#5 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\web\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/statia&id=3
+in Z:\home\localhost\www\web\protected\views\site\statia.php (11)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (198)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 14:14:27 [error] [php] fopen(stat_1.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\web\protected\views\site\statia.php:11)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): SiteController->render()
+#4 unknown(0): SiteController->actionstatia()
+#5 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\web\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/statia&id=2
+in Z:\home\localhost\www\web\protected\views\site\statia.php (11)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (198)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 14:14:38 [error] [php] fopen(stat_1.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\web\protected\views\site\statia.php:11)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): SiteController->render()
+#4 unknown(0): SiteController->actionstatia()
+#5 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\web\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/statia&id=2
+in Z:\home\localhost\www\web\protected\views\site\statia.php (11)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (198)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 14:14:41 [error] [php] fopen(fgjztfjngcnv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\web\protected\views\site\statia.php:11)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): SiteController->render()
+#4 unknown(0): SiteController->actionstatia()
+#5 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\web\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/statia&id=3
+in Z:\home\localhost\www\web\protected\views\site\statia.php (11)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (198)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 14:14:44 [error] [php] fopen(stat_1.txt) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\web\protected\views\site\statia.php:11)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): SiteController->render()
+#4 unknown(0): SiteController->actionstatia()
+#5 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\web\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/statia&id=2
+in Z:\home\localhost\www\web\protected\views\site\statia.php (11)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (198)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 14:32:32 [error] [exception.CException] exception 'CException' with message 'Property "Coments.Coment" is not defined.' in C:\web\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Coment')
+#1 Z:\home\localhost\www\web\protected\views\site\statia.php(29): CActiveRecord->__get('Coment')
+#2 C:\web\framework\web\CBaseController.php(126): require('Z:\home\localho...')
+#3 C:\web\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#4 C:\web\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#5 C:\web\framework\web\CController.php(782): CController->renderPartial('statia', Array, true)
+#6 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): CController->render('statia', Array)
+#7 [internal function]: SiteController->actionstatia('2')
+#8 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\web\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\web\framework\web\CWebApplication.php(282): CController->run('statia')
+#14 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/statia')
+#15 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/web/index.php?r=site/statia&id=2
+HTTP_REFERER=http://localhost/web/index.php?r=site/profil
+---
+2014/07/25 14:35:27 [error] [exception.CException] exception 'CException' with message 'Property "Coments.Coment" is not defined.' in C:\web\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Coment')
+#1 Z:\home\localhost\www\web\protected\views\site\statia.php(29): CActiveRecord->__get('Coment')
+#2 C:\web\framework\web\CBaseController.php(126): require('Z:\home\localho...')
+#3 C:\web\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#4 C:\web\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#5 C:\web\framework\web\CController.php(782): CController->renderPartial('statia', Array, true)
+#6 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): CController->render('statia', Array)
+#7 [internal function]: SiteController->actionstatia('2')
+#8 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\web\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\web\framework\web\CWebApplication.php(282): CController->run('statia')
+#14 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/statia')
+#15 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/web/index.php?r=site/statia&id=2
+HTTP_REFERER=http://localhost/web/index.php?r=site/profil
+---
+2014/07/25 14:35:31 [error] [php] fopen(Z:\home\localhost\www\web\protected\user\40\fgjztfjngcnv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\web\protected\views\site\statia.php:12)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): SiteController->render()
+#4 unknown(0): SiteController->actionstatia()
+#5 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\web\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/statia&id=3
+in Z:\home\localhost\www\web\protected\views\site\statia.php (12)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (198)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 14:38:43 [error] [php] fopen(Z:\home\localhost\www\web\protected\user\40\fgjztfjngcnv) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory (Z:\home\localhost\www\web\protected\views\site\statia.php:12)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#3 Z:\home\localhost\www\web\protected\controllers\SiteController.php(198): SiteController->render()
+#4 unknown(0): SiteController->actionstatia()
+#5 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\web\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/statia&id=3
+in Z:\home\localhost\www\web\protected\views\site\statia.php (12)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (198)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 15:06:40 [error] [exception.CException] exception 'CException' with message 'Property "User.fi" is not defined.' in C:\web\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(145): CComponent->__get('fi')
+#1 Z:\home\localhost\www\web\protected\views\site\statia.php(25): CActiveRecord->__get('fi')
+#2 C:\web\framework\web\CBaseController.php(126): require('Z:\home\localho...')
+#3 C:\web\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\localho...', Array, true)
+#4 C:\web\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\localho...', Array, true)
+#5 C:\web\framework\web\CController.php(782): CController->renderPartial('statia', Array, true)
+#6 Z:\home\localhost\www\web\protected\controllers\SiteController.php(203): CController->render('statia', Array)
+#7 [internal function]: SiteController->actionstatia('2')
+#8 C:\web\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\web\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\web\framework\web\CWebApplication.php(282): CController->run('statia')
+#14 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/statia')
+#15 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/web/index.php?r=site/statia&id=2
+HTTP_REFERER=http://localhost/web/index.php?r=site/profil
+---
+2014/07/25 15:09:59 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\web\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\web\framework\web\CBaseController.php(126): require()
+#1 C:\web\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\web\framework\web\CController.php(869): SiteController->renderFile()
+#3 C:\web\framework\web\CController.php(782): SiteController->renderPartial()
+#4 Z:\home\localhost\www\web\protected\controllers\SiteController.php(41): SiteController->render()
+#5 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\web\framework\web\CController.php(286): SiteController->runAction()
+#8 C:\web\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 C:\web\framework\web\CWebApplication.php(282): SiteController->run()
+#10 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 Z:\home\localhost\www\web\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/index.php?r=site/index
+in Z:\home\localhost\www\web\protected\views\site\first_page.php (30)
+in Z:\home\localhost\www\web\protected\controllers\SiteController.php (41)
+in Z:\home\localhost\www\web\index.php (13)
+2014/07/25 15:14:24 [error] [exception.CException] exception 'CException' with message 'Statia and its behaviors do not have a method or closure named "LoadModel".' in C:\web\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(227): CComponent->__call('LoadModel', Array)
+#1 Z:\home\localhost\www\web\protected\controllers\SiteController.php(35): CActiveRecord->__call('LoadModel', Array)
+#2 Z:\home\localhost\www\web\protected\controllers\SiteController.php(35): Statia->LoadModel()
+#3 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\web\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#9 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/web/index.php?r=site/index
+---
+2014/07/26 13:02:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index/redit".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('index/redit')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=index/redit
+---
+2014/07/26 16:04:01 [error] [exception.CException] exception 'CException' with message 'Property "User.1" is not defined.' in C:\web\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(145): CComponent->__get('1')
+#1 Z:\home\localhost\www\web\protected\controllers\SiteController.php(96): CActiveRecord->__get('1')
+#2 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionprofil()
+#3 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\web\framework\web\CWebApplication.php(282): CController->run('profil')
+#7 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/profil')
+#8 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=Site/profil
+HTTP_REFERER=http://localhost/web/index.php?r=site/profil
+---
+2014/07/26 16:04:04 [error] [exception.CException] exception 'CException' with message 'Property "User.1" is not defined.' in C:\web\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(145): CComponent->__get('1')
+#1 Z:\home\localhost\www\web\protected\controllers\SiteController.php(96): CActiveRecord->__get('1')
+#2 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionprofil()
+#3 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\web\framework\web\CWebApplication.php(282): CController->run('profil')
+#7 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/profil')
+#8 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=Site/profil
+HTTP_REFERER=http://localhost/web/index.php?r=site/profil
+---
+2014/07/26 16:04:07 [error] [exception.CException] exception 'CException' with message 'Property "User.1" is not defined.' in C:\web\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\web\framework\db\ar\CActiveRecord.php(145): CComponent->__get('1')
+#1 Z:\home\localhost\www\web\protected\controllers\SiteController.php(96): CActiveRecord->__get('1')
+#2 C:\web\framework\web\actions\CInlineAction.php(49): SiteController->actionprofil()
+#3 C:\web\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\web\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\web\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\web\framework\web\CWebApplication.php(282): CController->run('profil')
+#7 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/profil')
+#8 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/web/index.php?r=Site/profil
+HTTP_REFERER=http://localhost/web/index.php?r=site/profil
+---
+2014/07/27 15:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/index".' in C:\web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\web\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/index')
+#1 C:\web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\localhost\www\web\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/web/index.php?r=gii/index
+---

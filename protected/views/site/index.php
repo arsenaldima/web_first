@@ -1,0 +1,1 @@
+<a href ="http://localhost/web/index.php?r=site/Redit">registration</a>
